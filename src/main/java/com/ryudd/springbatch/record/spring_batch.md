@@ -17,4 +17,11 @@
 ### ERP 연동
     ERP는 자원 관리 시스템이라고 생각하면 된다.
 
+### JobParameter
+    spring batch의 경우 외부 혹은 내부에서 파라미터를 받아 여러 Batch 컴포넌트에서 사용할 수 있게 지원하고 있다.
+    이를 Job Parameter 라고 한다.
+    Job Parameter 를 사용하기 위해선 항상 spring batch 전용 Scope를 선언해야만 한다.
+    크게 Scope의 종류는 @StepScope와 @JobScope 2가지가 있다.
+    
+
     

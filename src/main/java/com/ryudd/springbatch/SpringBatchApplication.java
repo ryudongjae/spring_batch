@@ -4,12 +4,12 @@ import org.springframework.batch.core.configuration.annotation.EnableBatchProces
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@EnableBatchProcessing
+@EnableBatchProcessing //Spring batch 활성화
 @SpringBootApplication
-public class SpringbatchApplication {
+public class SpringBatchApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringbatchApplication.class, args);
+		SpringApplication.run(SpringBatchApplication.class, args);
 	}
 
 }
