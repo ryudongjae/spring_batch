@@ -9,6 +9,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 @ToString
 @Entity
@@ -16,6 +17,8 @@ import java.time.LocalDateTime;
 @Setter
 @NoArgsConstructor
 public class Pay {
+
+    private static final DateTimeFormatter FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd hh:mm:ss");
 
     @Id@GeneratedValue
     private Long id;
