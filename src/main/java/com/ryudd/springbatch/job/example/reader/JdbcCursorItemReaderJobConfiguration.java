@@ -1,6 +1,7 @@
-package com.ryudd.springbatch.job.example;
+package com.ryudd.springbatch.job.example.reader;
 
 
+import com.ryudd.springbatch.job.example.Pay;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.batch.core.Job;
